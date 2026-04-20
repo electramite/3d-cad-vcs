@@ -1,0 +1,30 @@
+# ── Dependencies ─────────────────────────────────────────────────────────────
+backend/node_modules/
+frontend/node_modules/
+agent/node_modules/
+bridge/node_modules/
+
+# ── Environment files ─────────────────────────────────────────────────────────
+backend/.env
+agent/.env
+bridge/.env
+
+# ── Uploaded files ────────────────────────────────────────────────────────────
+backend/uploads/
+
+# ── Frontend build ────────────────────────────────────────────────────────────
+frontend/dist/
+frontend/.vite/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editor ────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
