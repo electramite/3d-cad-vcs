@@ -1,0 +1,33 @@
+# ── Dependencies ─────────────────────────────────────────────────────────────
+cad-version-control/backend/node_modules/
+cad-version-control/frontend/node_modules/
+cad-version-control/agent/node_modules/
+cad-version-control/bridge/node_modules/
+
+# ── Environment files (never commit secrets) ──────────────────────────────────
+cad-version-control/backend/.env
+cad-version-control/agent/.env
+cad-version-control/bridge/.env
+
+# ── Uploaded files (binary, large, not for git) ───────────────────────────────
+cad-version-control/backend/uploads/
+
+# ── Frontend build output ─────────────────────────────────────────────────────
+cad-version-control/frontend/dist/
+cad-version-control/frontend/.vite/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editor ────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
